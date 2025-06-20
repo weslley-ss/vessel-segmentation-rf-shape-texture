@@ -1,0 +1,26 @@
+name: experiments
+channels:
+  - pytorch
+  - nvidia
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - jupyter
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
+  - matplotlib
+  - scipy
+  - tifffile
+  - tensorboard
+  - networkx
+  - scikit-image
+  - tqdm
+  - pandas
+  - scikit-learn
+  - pip
+  - pip:
+      - notebook==6.5.6
